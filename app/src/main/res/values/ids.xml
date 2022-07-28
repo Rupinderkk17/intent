@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="getstg" type="id">getstg</item>
+    <item name="getstring" type="id">getstring</item>
+    <item name="getnumber" type="id">getnumber</item>
+    <item name="getchar" type="id">getchar</item>
+    <item name="getlong" type="id">getlong</item>
+    <item name="getdouble" type="id">getdouble</item>
+    <item name="getfloats" type="id">getfloats</item>
+</resources>

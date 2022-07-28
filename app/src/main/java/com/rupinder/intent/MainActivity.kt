@@ -27,16 +27,18 @@ class MainActivity : AppCompatActivity() {
         bool=findViewById(R.id.bool)
         btn=findViewById(R.id.btn)
         btn.setOnClickListener {
-            var intent= Intent(this, Newpage::class.java)
+            var intent= Intent(this,Newpage::class.java)
             intent.putExtra("string",stg.text.toString())
             intent.putExtra("number",Integer.parseInt(num.text.toString()))
             intent.putExtra("char",chr.text.toString())
             intent.putExtra("double",(db.text.toString()).toDouble())
             intent.putExtra("long",(lng.text.toString()).toLong())
             intent.putExtra("Float",(floats.text.toString()).toFloat())
-//            intent.putExtra("bool",bool as Boolean)
+
             startActivity(intent)
         }
 
     }
 }
+
+
